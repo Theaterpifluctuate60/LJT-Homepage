@@ -34,5 +34,9 @@
 
     "layout/page",
     "layout/archive",
-    "layout/sidebar"
-;
+    "layout/sidebar";
+
+/* Hide the sidebar avatar when no profile photo is provided. */
+.author__avatar {
+  display: none;
+}
